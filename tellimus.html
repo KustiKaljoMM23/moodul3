@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slurp | Tellimus ja Lauabroneering</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <div class="logo">slurp <span>RAMEN BAR</span></div>
+
+    <nav>
+      <a href="avaleht.html">Avaleht</a>
+      <a href="menu.html">Menüü</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a class="active" href="tellimus.html">Telli lauda</a>
+    </nav>
+
+    <a class="top-btn" href="#">TELLI NÜÜD 🛒</a>
+  </div>
+</header>
+
+<section class="hero-order">
+  <div class="container hero-text">
+    <h1>TELLI VÕI<br><span>BRONEERI</span> LAUD</h1>
+    <p>Naudi Slurpi ramenit kodus või reserveeri laud<br>ja veeda õhtu meie juures.</p>
+
+    <div class="hero-buttons">
+      <a href="#order" class="btn">🍜 TELLI KOJU</a>
+      <a href="#booking" class="btn outline">🪑 BRONEERI LAUD</a>
+    </div>
+  </div>
+</section>
+
+<section class="forms-section">
+  <div class="container forms-grid">
+
+    <form id="order" class="box-form">
+      <h2>🍜 TELLI KOJU</h2>
+      <h3>Sinu lemmik ramen vaid mõne klikiga</h3>
+      <p>Vali oma lemmikroad ja telli need mugavalt koju või kontorisse.</p>
+
+      <div class="two">
+        <input type="text" placeholder="Eesnimi *">
+        <input type="tel" placeholder="Telefon *">
+      </div>
+
+      <input type="text" placeholder="Aadress *">
+
+      <select>
+        <option>Vali restoran *</option>
+        <option>Tallinn</option>
+        <option>Tartu</option>
+        <option>Riia</option>
+      </select>
+
+      <label class="label">TOOTED</label>
+
+      <div class="product-row">
+        <label><input type="checkbox"> Black Garlic Tonkotsu</label>
+        <span>15,50 €</span>
+      </div>
+
+      <div class="product-row">
+        <label><input type="checkbox"> Spicy Volcano Miso</label>
+        <span>15,50 €</span>
+      </div>
+
+      <div class="product-row">
+        <label><input type="checkbox"> Shio Chicken Raamen</label>
+        <span>14,50 €</span>
+      </div>
+
+      <div class="product-row">
+        <label><input type="checkbox"> Trühvli Gyoza</label>
+        <span>7,50 €</span>
+      </div>
+
+      <div class="product-row">
+        <label><input type="checkbox"> Matcha Juustukook</label>
+        <span>6,50 €</span>
+      </div>
+
+      <label class="label">ERISOOVID</label>
+      <textarea placeholder="Näiteks: ilma sibulata, rohkem vürtsi jms."></textarea>
+
+      <button type="submit">✈ ESITA TELLIMUS</button>
+    </form>
+
+    <form id="booking" class="box-form">
+      <h2>🪑 LAUA BRONEERIMINE</h2>
+      <h3>Broneeri oma koht</h3>
+      <p>Tule ja naudi õhtut Slurpis. Hea seltskond, suurepärane toit ja meeldejääv atmosfäär.</p>
+
+      <div class="two">
+        <input type="text" placeholder="Eesnimi *">
+        <input type="email" placeholder="E-post *">
+      </div>
+
+      <input type="tel" placeholder="Telefon *">
+
+      <select>
+        <option>Vali restoran *</option>
+        <option>Tallinn</option>
+        <option>Tartu</option>
+        <option>Riia</option>
+      </select>
+
+      <div class="two">
+        <input type="text" placeholder="Kuupäev *">
+        <input type="text" placeholder="Kellaaeg *">
+      </div>
+
+      <label class="label">Inimeste arv *</label>
+      <div class="people">
+        <button type="button">1</button>
+        <button type="button">2</button>
+        <button type="button">3-4</button>
+        <button type="button">5-6</button>
+        <button type="button">7+</button>
+      </div>
+
+      <label class="label">Lisainfo</label>
+      <textarea placeholder="Näiteks: laps tooliga, sünnipäev, allergiad jms."></textarea>
+
+      <button type="submit">📅 BRONEERI LAUD</button>
+    </form>
+
+  </div>
+</section>
+
+<section class="popular">
+  <div class="container">
+    <h2>POPULAARSED VALIKUD</h2>
+    <div class="line"></div>
+
+    <div class="cards">
+      <article class="card">
+        <span>UUS!</span>
+        <img src="images/ramen-3.webp" alt="">
+        <div>
+          <h3>Black Garlic Tonkotsu</h3>
+          <p>Rikkalik sealihapuljong röstitud musta küüslaugu õliga.</p>
+          <strong>15.50€</strong>
+        </div>
+      </article>
+
+      <article class="card">
+        <span>UUS!</span>
+        <img src="images/ramen-2.webp" alt="">
+        <div>
+          <h3>Spicy Volcano Miso</h3>
+          <p>Tuline iseloomuga miso-ramen vürtsika sealihaga.</p>
+          <strong>15.50€</strong>
+        </div>
+      </article>
+
+      <article class="card">
+        <span>UUS!</span>
+        <img src="images/gyoza.webp" alt="">
+        <div>
+          <h3>Trühvli Gyoza</h3>
+          <p>Krõbedaks praetud sealihaga gyozad.</p>
+          <strong>7.50€</strong>
+        </div>
+      </article>
+
+      <article class="card">
+        <span>UUS!</span>
+        <img src="images/matcha.webp" alt="">
+        <div>
+          <h3>Matcha Juustukook</h3>
+          <p>Kreemine matcha-maitseline juustukook marjadega.</p>
+          <strong>6.50€</strong>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="benefits">
+  <div class="container benefit-box">
+    <h2>BRONEERINGU EELISED</h2>
+
+    <div class="benefit-grid">
+      <div class="benefit">
+        <div class="icon">⏱</div>
+        <div>
+          <h3>KIIRE TEENINDUS</h3>
+          <p>Sinu laud on saabudes valmis, et saaksid kohe naudingut alustada.</p>
+        </div>
+      </div>
+
+      <div class="benefit">
+        <div class="icon">▥</div>
+        <div>
+          <h3>PARIMAD KOHAD</h3>
+          <p>Vali endale sobiv istekoht ja naudi õhtut parimas asukohas.</p>
+        </div>
+      </div>
+
+      <div class="benefit">
+        <div class="icon">🎈</div>
+        <div>
+          <h3>SÜNNIPÄEVAD</h3>
+          <p>Broneeri suurematele seltskondadele ja tee oma õhtu eriliseks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq-section">
+  <div class="container faq-grid">
+    <div>
+      <h2>KKK</h2>
+      <div class="line"></div>
+
+      <details open>
+        <summary>Kui kaua lauda minu jaoks hoitakse?</summary>
+        <p>Hoiame lauda kuni 30 minutit pärast broneeritud aega.</p>
+      </details>
+
+      <details>
+        <summary>Kas suurematele gruppidele on eritingimused?</summary>
+        <p>Jah. Üle 8 inimese puhul võtame teiega ühendust ja leiame parima lahenduse.</p>
+      </details>
+
+      <details>
+        <summary>Kas saan tellimust muuta?</summary>
+        <p>Jah, kuni restoran pole tellimuse valmistamist alustanud.</p>
+      </details>
+    </div>
+
+    <img src="images/mascot-order.webp" alt="Slurp mascot">
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="logo">slurp <span>RAMEN BAR</span></div>
+      <p>Hea toit.<br>Head joogid.<br>Head ajad.<br>Näeme täna õhtul.</p>
+      <div class="socials">◎ ◎ ♫</div>
+    </div>
+
+    <div>
+      <h4>NAVIGEERIMINE</h4>
+      <a href="avaleht.html">Avaleht</a>
+      <a href="menu.html">Menüü</a>
+      <a href="kontakt.html">Kontakt</a>
+      <a href="#">Telli lauda</a>
+    </div>
+
+    <div>
+      <h4>INFORMATSIOON</h4>
+      <a>Karjäär</a>
+      <a>Kinkekaardid</a>
+      <a>Privaatsed üritused</a>
+      <a>KKK</a>
+      <a>Kasutajatingimused</a>
+    </div>
+
+    <div>
+      <h4>PÜSI TEADMISTEGA KURSIS</h4>
+      <p>Registreeri end meie uudiskirjale,<br>ning püsi uudistega kursis.</p>
+      <form>
+        <input type="email" placeholder="Sisest enda meil">
+        <button>›</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container copyright">
+    ©2026 Slurp Ramen Bar. Kõik õigused kaitstud.
+  </div>
+</footer>
+
+</body>
+</html>
