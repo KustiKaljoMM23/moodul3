@@ -1718,13 +1718,24 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 54px;
 }
 
 .logo {
-  color: var(--yellow);
-  font-size: 34px;
-  font-weight: 900;
-  line-height: .8;
+  display: inline-flex;
+  align-items: center;
+  width: 90px;
+}
+
+.logo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer-logo {
+  width: 95px;
+  margin-bottom: 28px;
 }
 
 .logo span {
