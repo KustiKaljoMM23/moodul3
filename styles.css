@@ -631,6 +631,7 @@ a {
   grid-template-columns: repeat(3, 280px);
   gap: 78px;
   justify-content: center;
+  margin-bottom: 90px;
 }
 
 .big-card {
@@ -698,13 +699,13 @@ a {
 }
 
 .mini-head h2 {
-  font-size: 34px;
+  font-size: 23px;
 }
 
 .mini-head::after {
   content: "";
   position: absolute;
-  left: 165px;
+  left: 193px;
   right: 55px;
   top: 50%;
   height: 1px;
@@ -1703,6 +1704,7 @@ a {
   width: 83%;
   max-width: 1180px;
   margin: auto;
+  margin-bottom: 58px;
 }
 
 .header {
